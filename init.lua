@@ -40,7 +40,7 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 lspconfig.emmet_ls.setup {
   -- on_attach = on_attach,
   capabilities = capabilities,
-  filetypes = { 'html', 'php', 'blade' },
+  filetypes = { 'html', 'blade' },
 
   init_options = {
     includeLanguages = {
