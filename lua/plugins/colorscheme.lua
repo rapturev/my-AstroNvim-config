@@ -1,9 +1,9 @@
 return {
-  "vim-scripts/eclipse.vim",
+  "EdenEast/nightfox.nvim",
   lazy = false,
   priority = 1000,
   config = function()
     -- Set the colorscheme
-    vim.cmd.colorscheme("eclipse")
+    vim.cmd.colorscheme("nightfox")
   end,
 }
